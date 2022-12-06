@@ -2,6 +2,7 @@ import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
 import HeaderImg from "../Images/header-img.png";
 import subscription from '../Images/subscription.png';
+import AddBanner from '../Images/add-banner.png';
 import "./pages.css";
 
 function Home(props) {
@@ -31,6 +32,11 @@ function Home(props) {
               <img src={HeaderImg} alt="img" className="headerImg" />
             </div>
           </div>
+        </div>
+      </section>
+      <section>
+        <div className="container pt-5">
+            <img src={AddBanner} alt="img"/>
         </div>
       </section>
       <section className="memberShipSection">
