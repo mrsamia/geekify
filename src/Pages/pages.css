@@ -46,15 +46,17 @@
 .headerImg {
   max-width: 100%;
   height: auto;
+  padding: 50px 0px;
 }
 
 .memberShipSection {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 .membership-bg {
   background-image: url("../Images/g.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 }
 .membershipTitle {
@@ -78,5 +80,51 @@
   border-radius: 22px;
   width: 221px;
   height: 44px;
-  background-color: transparent ;
+  background-color: transparent;
+}
+.AiOutlineMinus {
+  color: rgb(247, 106, 42);
+  font-size: 90px;
+  margin-top: -17px;
+  max-width: 100%;
+}
+.line {
+  max-width: 100%;
+  height: 2px;
+  display: flex;
+  align-self: center;
+  padding-right: 10px;
+}
+.membership_Indent_Title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #f76a2a;
+  text-indent: 53px;
+}
+/* .light-gray-background:before{
+  right: -99em;
+  background: #f76a2a;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 99em;
+  top: 0;
+  bottom: 0;
+}
+.light-gray-background{
+  background: #f76a2a;
+} */
+.left {
+  background-color: aliceblue;
+}
+.left:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: aliceblue;
 }
