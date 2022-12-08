@@ -1,17 +1,17 @@
 import React from "react";
-import { FiPhoneCall } from "react-icons/fi";
 import HeaderImg from "../Images/header-img.png";
 import subscription from "../Images/subscription.png";
 import AddBanner from "../Images/add-banner.png";
 import MobileImg from "../Images/mobile-image.png";
-import Tick1 from "../Images/tick1.png";
 import DownloadIcon from "../Images/download-icon.png";
-import { AiOutlineMinus } from "react-icons/ai";
 import Line from "../Images/line.png";
 import Image from "../Images/image.png";
 import "./pages.css";
 import SectionTitle from "../Components/SectionTitle";
 import Check from "../Components/Check";
+import Footer from "../Components/Footer";
+import CallBackButton from "../Components/CallBackButton";
+import Card from "../Components/Card";
 
 function Home(props) {
   return (
@@ -29,12 +29,7 @@ function Home(props) {
                   anytime.
                 </p>
               </div>
-              <div className="bbtn">
-                <button className="requestCallBack-btn">
-                  <FiPhoneCall style={{ width: "46px" }} />
-                  Request a call back
-                </button>
-              </div>
+              <CallBackButton className="RequestCallBackLg-btn" />
             </div>
             <div className="col-sm-12 col-lg-6 ">
               <img src={HeaderImg} alt="img" className="headerImg" />
@@ -181,10 +176,34 @@ function Home(props) {
       </section>
 
 
-      <section className="sectionPadding">
+      <section className="sectionPadding ">
+        <div className="container">
+          <div className="FooteBg ">
+            <div className="pt-4 pb-5">
+              <div className="d-flex justify-content-center">
+                <p className="footer-p">Can't find the service you need?</p>
+              </div>
+              <div className="d-flex justify-content-center">
+                <h2 className="footer-h2">Our team will contact you in 24 hours.</h2>
+              </div>
+              <div className="d-flex justify-content-center">
+                <CallBackButton className="RequestCallBackSm-btn" />
+              </div>
+            </div>
+          </div>
 
+          <div className="">
+            <Footer />
+          </div>
+
+        </div>
       </section>
 
+      <section className="sectionPadding">
+                  <div className="container">
+                    <Card />
+                  </div>
+      </section>
 
       {/* <section >
         <div className="d-flex align-items-center">
