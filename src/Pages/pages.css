@@ -6,18 +6,21 @@
   /* display: flex;
   align-items: center; */
 }
+
 .heroText {
   color: white;
   font-size: 80px;
   line-height: 94.8px;
   letter-spacing: -2%;
 }
+
 .txt-25 {
   font-weight: 400;
   font-size: 25px;
   line-height: 30px;
   color: #ffffff;
 }
+
 .bbtn {
   background: rgba(0, 184, 209, 0.4);
   width: fit-content;
@@ -43,33 +46,41 @@
   /* width: 215.78px;
   height: 63.96px; */
 }
+
 .headerImg {
   max-width: 100%;
   height: auto;
   padding: 50px 0px;
 }
-
-.memberShipSection {
+.Img {
+  max-width: 100%;
+  height: auto;
+}
+.sectionPadding{
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .membership-bg {
   background-image: url("../Images/g.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
+
 .membershipTitle {
   font-weight: 500;
   font-size: 40px;
   line-height: 47px;
 }
-.membershipText {
+
+.p_Text {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
   padding: 17px 0px;
 }
+
 .BeAMemberBtn {
   font-weight: 600;
   font-size: 18px;
@@ -82,12 +93,14 @@
   height: 44px;
   background-color: transparent;
 }
+
 .AiOutlineMinus {
   color: rgb(247, 106, 42);
   font-size: 90px;
   margin-top: -17px;
   max-width: 100%;
 }
+
 .line {
   max-width: 100%;
   height: 2px;
@@ -95,6 +108,7 @@
   align-self: center;
   padding-right: 10px;
 }
+
 .membership_Indent_Title {
   font-weight: 500;
   font-size: 40px;
@@ -102,6 +116,7 @@
   color: #f76a2a;
   text-indent: 53px;
 }
+
 /* .light-gray-background:before{
   right: -99em;
   background: #f76a2a;
@@ -118,6 +133,7 @@
 .left {
   background-color: aliceblue;
 }
+
 .left:before {
   content: "";
   position: absolute;
@@ -127,4 +143,26 @@
   width: 100%;
   height: 50px;
   background-color: aliceblue;
+}
+
+.BackgroundCheck {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #BFABDC;
+  padding-left: 10px;
+}
+
+.shadow {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+}
+.backImg{
+  background-image: url("../Images/back\ image\ 3.png");
+  background-repeat: no-repeat;
+}
+.position{
+  position: absolute;
+  top: 280px;
+  left: 163px;
 }

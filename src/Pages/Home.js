@@ -4,11 +4,14 @@ import HeaderImg from "../Images/header-img.png";
 import subscription from "../Images/subscription.png";
 import AddBanner from "../Images/add-banner.png";
 import MobileImg from "../Images/mobile-image.png";
+import Tick1 from "../Images/tick1.png";
 import DownloadIcon from "../Images/download-icon.png";
 import { AiOutlineMinus } from "react-icons/ai";
 import Line from "../Images/line.png";
+import Image from "../Images/image.png";
 import "./pages.css";
 import SectionTitle from "../Components/SectionTitle";
+import Check from "../Components/Check";
 
 function Home(props) {
   return (
@@ -42,13 +45,13 @@ function Home(props) {
       <section>
         <div className="container pt-5 d-flex justify-content-center">
           <img
-            style={{ maxWidth: "100%", height: "auto" }}
+            className="Img"
             src={AddBanner}
             alt="img"
           />
         </div>
       </section>
-      <section className="memberShipSection d-flex">
+      <section className="sectionPadding d-flex">
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-lg-6 membership-bg  ">
@@ -88,7 +91,7 @@ function Home(props) {
                   </h3>
                 </div>
                 <div>
-                  <p className="membershipText">
+                  <p className="p_Text">
                     With Geeks, your onsite computer tech specialist, we are
                     offering you an exclusive subscription plan to cater to all
                     your tech needs. This limited offer gives you 1 FREE home
@@ -101,7 +104,7 @@ function Home(props) {
               </div>
             </div>
             <div className="col-sm-12 col-lg-6">
-              <img src={subscription} alt="img" className="headerImg" />
+              <img src={subscription} alt="img" className="Img" />
             </div>
           </div>
         </div>
@@ -113,7 +116,7 @@ function Home(props) {
             <div className="col-sm-12 col-lg-6">
               <img src={MobileImg} alt="img" className="headerImg" />
             </div>
-            <div className="col-sm-12 col-lg-6 left">
+            <div className="col-sm-12 col-lg-6 ">
               <div className="d-flex">
                 <img src={Line} alt="img" className="line" />
                 <p
@@ -126,24 +129,64 @@ function Home(props) {
               <h3 className="membershipTitle">
                 App is available for free on app store
               </h3>
-              <p className="membershipText">
+              <p className="p_Text">
                 Find and book your appointment from anywhere with our geekify
                 customer app.
               </p>
               <div>
-                <img src={DownloadIcon} alt="img" />
+                <img src={DownloadIcon} alt="img" className="Img" />
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section>
-        <SectionTitle name="Why choose us?" />
+
+
+
+
+      <section className="sectionPadding backImg">
+        <div className="container" style={{ position: "relative" }}>
+          <div style={{ textAlign: "right" }} >
+            <img src={Image} alt="img" className="Img" />
+          </div>
+          <div className="row bg-white d-flex align-items-center position">
+            <div className="col-sm-12" style={{ padding: "50px" }}>
+              <div>
+                <SectionTitle name="Why choose us?" />
+                <p className="p_Text">Your satisfaction is our goal. If you’re not happy, we’ll work to make it right.</p>
+              </div>
+              <div>
+                <div className="row ">
+                  <div className="col-sm-12 col-lg-6">
+                    <Check />
+                  </div>
+                  <div className="col-sm-12 col-lg-6">
+                    <Check />
+                  </div>
+                </div>
+                <div>
+                  <div className="row pt-3">
+                    <div className="col-sm-12 col-lg-6">
+                      <Check />
+                    </div>
+                    <div className="col-sm-12 col-lg-6">
+                      <Check />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
 
+      <section className="sectionPadding">
 
-      <section >
+      </section>
+
+
+      {/* <section >
         <div className="d-flex align-items-center">
           <div>
             <img src={MobileImg} alt="img" className="headerImg" />
@@ -172,7 +215,7 @@ function Home(props) {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
 
     </div>
