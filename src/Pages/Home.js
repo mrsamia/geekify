@@ -9,14 +9,17 @@ import Image from "../Images/image.png";
 import "./pages.css";
 import SectionTitle from "../Components/SectionTitle";
 import Check from "../Components/Check";
-import Footer from "../Components/Footer";
 import CallBackButton from "../Components/CallBackButton";
 import Card from "../Components/Card";
+import BookingProcess from "../Components/BookingProcess";
+import Footer from "../Components/Footer";
+import FooterImg from "../Components/FooterImg";
+import FooterCopyRight from "../Components/FooterCopyRight";
 
 function Home(props) {
   return (
     <div>
-      <section className=" heroSection">
+      <section className="heroSection pt-5">
         <div className="container">
           <div className="row d-flex align-items-center">
             <div className="col-sm-12 col-lg-6">
@@ -152,7 +155,7 @@ function Home(props) {
               </div>
               <div>
                 <div className="row ">
-                  <div className="col-sm-12 col-lg-6">
+                  <div className="col-sm-12 col-lg-6 pb-3 pb-lg-0">
                     <Check />
                   </div>
                   <div className="col-sm-12 col-lg-6">
@@ -161,7 +164,7 @@ function Home(props) {
                 </div>
                 <div>
                   <div className="row pt-3">
-                    <div className="col-sm-12 col-lg-6">
+                    <div className="col-sm-12 col-lg-6 pb-3 pb-lg-0">
                       <Check />
                     </div>
                     <div className="col-sm-12 col-lg-6">
@@ -175,67 +178,16 @@ function Home(props) {
         </div>
       </section>
 
-
-      <section className="sectionPadding ">
-        <div className="container">
-          <div className="FooteBg ">
-            <div className="pt-4 pb-5">
-              <div className="d-flex justify-content-center">
-                <p className="footer-p">Can't find the service you need?</p>
-              </div>
-              <div className="d-flex justify-content-center">
-                <h2 className="footer-h2">Our team will contact you in 24 hours.</h2>
-              </div>
-              <div className="d-flex justify-content-center">
-                <CallBackButton className="RequestCallBackSm-btn" />
-              </div>
-            </div>
-          </div>
-
-          <div className="">
-            <Footer />
-          </div>
-
-        </div>
-      </section>
-
       <section className="sectionPadding">
-                  <div className="container">
-                    <Card />
-                  </div>
+        <div className="container">
+          <FooterImg/>
+          <Footer />
+        </div>
       </section>
 
-      {/* <section >
-        <div className="d-flex align-items-center">
-          <div>
-            <img src={MobileImg} alt="img" className="headerImg" />
-          </div>
-          <div>
-            <div>
-            <div>
-              <div className="d-flex">
-                <img src={Line} alt="img" className="line" />
-                <p
-                  style={{ fontSize: "20px", color: "gray", fontWeight: "200" }}>
-                  Download our App
-                </p>
-              </div>
-              <h3 className="membershipTitle">
-                App is available for free on app store
-              </h3>
-              <p className="membershipText">
-                Find and book your appointment from anywhere with our geekify
-                customer app.
-              </p>
-              <div>
-                <img src={DownloadIcon} alt="img" />
-              </div>
-            </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
+      <section >
+        <FooterCopyRight/>
+      </section>
 
     </div>
   );
