@@ -108,13 +108,13 @@ function Home(props) {
         </div>
       </section>
 
-      <section>
+      <section >
         <div className="container">
-          <div className="row d-flex align-items-center">
-            <div className="col-sm-12 col-lg-6">
+          <div className="row d-flex align-items-center " >
+            <div className="col-sm-12 col-lg-6 ">
               <img src={MobileImg} alt="img" className="headerImg" />
             </div>
-            <div className="col-sm-12 col-lg-6 ">
+            <div className="col-sm-12 col-lg-6 " >
               <div className="d-flex">
                 <img src={Line} alt="img" className="line" />
                 <p
@@ -180,13 +180,13 @@ function Home(props) {
 
       <section className="sectionPadding">
         <div className="container">
-          <FooterImg/>
+          <FooterImg />
           <Footer />
         </div>
       </section>
 
       <section >
-        <FooterCopyRight/>
+        <FooterCopyRight />
       </section>
 
     </div>

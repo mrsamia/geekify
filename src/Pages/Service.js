@@ -46,13 +46,13 @@ function Service(props) {
                     <p className="text-center">Easiest way to get a service</p>
                     <div className="bookingProcessBg pt-5 pb-5 ">
                         <div className="row ">
-                            <div className="col-sm-12 col-lg-4 pb-3">
+                            <div className="col-sm-12 col-lg-4 pb-3 ">
                                 <BookingProcess />
                             </div>
                             <div className="col-sm-12 col-lg-4 pb-3">
                                 <BookingProcess />
                             </div>
-                            <div className="col-sm-12 col-lg-4 pb-3">
+                            <div className="col-sm-12 col-lg-4 pb-3 book-appoint">
                                 <BookingProcess />
                             </div>
                         </div>
