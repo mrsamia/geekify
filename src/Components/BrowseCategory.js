@@ -40,21 +40,14 @@ function BrowseCategory(props) {
                 <h3>{item.title}</h3>
               </div>
               <div className="d-flex justify-content-center">
-                {/* <div className="d-flex align-items-end pb-5" >
-                  <NavLink className="see-all Cad-see-all">See all</NavLink>
-                  <hr style={{border: "1px solid red"}}/>
-                </div>
-                <div>
-                  <img src={Cad} className="Img" alt="img" />
-                </div> */}
                 <div className="row">
                   <div className="col-6">
                     <div>
                       <NavLink className="see-all">See All</NavLink>
                     </div>
-                    <div className="">
+                    <div className="d-flex align-items-center">
                     <span className="dot"></span>
-                      <hr style={{ border: "1px solid #f76a2a"}} />
+                      <hr style={{ border: "1px solid #f76a2a",width:"100%"}} />
                     </div>
                   </div>
                   <div className="col-6">
