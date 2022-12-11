@@ -177,7 +177,7 @@ function Home(props) {
         </div>
       </section>
 
-      <section className="sectionPadding">
+      <section className="sectionPadding bg-light">
         <div className="container">
           <FooterImg />
           <Footer />

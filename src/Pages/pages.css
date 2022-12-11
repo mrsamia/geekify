@@ -170,6 +170,7 @@
 .backImg {
   background-image: url("../Images/back\ image\ 3.png");
   background-repeat: no-repeat;
+  padding: 290px 0px;
 }
 
 .position {
@@ -182,6 +183,7 @@
   background-image: url("../Images/footer-top-bg.png");
   background-repeat: no-repeat;
   background-size: contain;
+  margin-top: -180px;
 }
 .footer-h2 {
   font-weight: 500;
