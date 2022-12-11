@@ -15,6 +15,8 @@ import BookingProcess from "../Components/BookingProcess";
 import Footer from "../Components/Footer";
 import FooterImg from "../Components/FooterImg";
 import FooterCopyRight from "../Components/FooterCopyRight";
+import SearchBar from "../Components/SearchBar";
+import BrowseCategory from "../Components/BrowseCategory";
 
 function Home(props) {
   return (
@@ -40,51 +42,48 @@ function Home(props) {
           </div>
         </div>
       </section>
-      <section>
-        <div className="container pt-5 d-flex justify-content-center">
-          <img
-            className="Img"
-            src={AddBanner}
-            alt="img"
-          />
+      <section className="sectionPadding">
+        <div className="container d-flex justify-content-center">
+          <img className="Img" src={AddBanner} alt="img" />
         </div>
       </section>
-      <section className="sectionPadding d-flex">
+
+      <section className="sectionPadding">
         <div className="container">
-          <div className="row">
-            <div className="col-sm-12 col-lg-6 membership-bg  ">
+          <div>
+            <div>
+              <SectionTitle name="Browse by category" />
+            </div>
+            <div>
+              <p>
+                Find the type of service you need, clearly defined and ready to
+                start.
+              </p>
+            </div>
+            <div>
+              <SearchBar />
+            </div>
+          </div>
+          <div>
+            <h6 className="text-end">Browse All</h6>
+          </div>
+          <div>
+            <BrowseCategory />
+          </div>
+        </div>
+      </section>
+
+      <section className="sectionPadding d-flex membership-bg">
+        <div className="container ">
+          <div className="row ">
+            <div className="col-sm-12 col-lg-6   ">
               <div>
                 <div>
-                  {/* <div className="row">
-                    <div className="col-2">
-                      <AiOutlineMinus className="AiOutlineMinus" />
-                      <img src={Line} alt="img" className="line" />
-                    </div>
-                    <div className="col-10" style={{ paddingLeft: "0px" }}>
-                      <h3 className="membershipTitle">
-                        Inroducing Our<br></br>
-                        <span style={{ color: "RGBA(247, 106, 42, 1)" }}>
-                          Greekify Membership
-                        </span>
-                      </h3>
-                    </div>
-                  </div>  */}
-
-                  {/* <div className="d-flex">
-                  <img src={Line} alt="img" className="line" />
-                  <h3 className="membershipTitle">
-                        Inroducing Our<br></br>
-                        <span style={{ color: "RGBA(247, 106, 42, 1)" }}>
-                          Greekify Membership
-                        </span>
-                      </h3>
-                  </div> */}
                   <SectionTitle name="Inroducing Our" />
                   <h3
                     className="membership_Indent_Title"
                     style={{ textIndent: "53px" }}
                   >
-                    {" "}
                     Greekify Membership
                   </h3>
                 </div>
@@ -101,20 +100,20 @@ function Home(props) {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-lg-6">
+            <div className="col-sm-12 col-lg-6 pt-5">
               <img src={subscription} alt="img" className="Img" />
             </div>
           </div>
         </div>
       </section>
 
-      <section >
+      <section>
         <div className="container">
-          <div className="row d-flex align-items-center " >
+          <div className="row d-flex align-items-center ">
             <div className="col-sm-12 col-lg-6 ">
               <img src={MobileImg} alt="img" className="headerImg" />
             </div>
-            <div className="col-sm-12 col-lg-6 " >
+            <div className="col-sm-12 col-lg-6 ">
               <div className="d-flex">
                 <img src={Line} alt="img" className="line" />
                 <p
@@ -139,19 +138,19 @@ function Home(props) {
         </div>
       </section>
 
-
-
-
       <section className="sectionPadding backImg">
         <div className="container" style={{ position: "relative" }}>
-          <div style={{ textAlign: "right" }} >
+          <div style={{ textAlign: "right" }}>
             <img src={Image} alt="img" className="Img" />
           </div>
           <div className="row bg-white d-flex align-items-center position">
             <div className="col-sm-12" style={{ padding: "50px" }}>
               <div>
                 <SectionTitle name="Why choose us?" />
-                <p className="p_Text">Your satisfaction is our goal. If you’re not happy, we’ll work to make it right.</p>
+                <p className="p_Text">
+                  Your satisfaction is our goal. If you’re not happy, we’ll work
+                  to make it right.
+                </p>
               </div>
               <div>
                 <div className="row ">
@@ -185,10 +184,9 @@ function Home(props) {
         </div>
       </section>
 
-      <section >
+      <section>
         <FooterCopyRight />
       </section>
-
     </div>
   );
 }

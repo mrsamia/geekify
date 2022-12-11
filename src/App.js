@@ -4,6 +4,7 @@ import AppNav from "./Components/AppNav";
 import Home from "./Pages/Home";
 import { Routes, Route } from "react-router-dom";
 import Service from "./Pages/Service";
+import ServiceArea from "./Pages/ServiceArea";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/Service" element={<Service />} />
+        <Route path="/ServiceArea" element={<ServiceArea/>} />
       </Routes>
     </div>
 
