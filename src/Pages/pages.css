@@ -170,7 +170,7 @@
 .backImg {
   background-image: url("../Images/back\ image\ 3.png");
   background-repeat: no-repeat;
-  padding: 290px 0px;
+  padding-bottom: 290px;
 }
 
 .position {
