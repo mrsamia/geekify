@@ -46,7 +46,7 @@ function Service(props) {
                                 <BookingProcess />
                             </div>
                         </div>
-                        <div className="pt-5 d-flex justify-content-center">
+                        <div className="d-flex justify-content-center">
                             <button className="bookNowBtn">Book Now</button>
                         </div>
 
@@ -54,7 +54,7 @@ function Service(props) {
                 </div>
             </section>
 
-            <section className="sectionPadding">
+            <section className="sectionPadding bg-light">
                 <div className="container">
                     <FooterImg />
                     <Footer />

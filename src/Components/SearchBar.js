@@ -3,7 +3,7 @@ import React from 'react';
 function SearchBar(props) {
     return (
        
-             <div className="form-group has-search input-group" style={{ maxWidth: "40%" }}>
+             <div className="form-group has-search input-group" >
                         {/* <span className="fa fa-search form-control-feedback"></span> */}
                         {/* <span className='form-control-feedback'> <img src={SearchIcon} className="Img"/></span> */}
                         {/* <HiSearch /> */}

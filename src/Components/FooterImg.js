@@ -4,7 +4,7 @@ import CallBackButton from "../Components/CallBackButton";
 function FooterImg(props) {
     return (
         <div>
-            <div className="FooteBg ">
+            <div className="FooteBg">
             <div className="pt-4 pb-5">
               <div className="d-flex justify-content-center">
                 <p className="footer-p">Can't find the service you need?</p>

@@ -40,7 +40,7 @@ function BrowseCategory(props) {
                 <h3>{item.title}</h3>
               </div>
               <div className="d-flex justify-content-center">
-                <div className="row">
+                <div className="row align-items-end">
                   <div className="col-6">
                     <div>
                       <NavLink className="see-all">See All</NavLink>

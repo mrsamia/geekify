@@ -17,6 +17,7 @@ import FooterImg from "../Components/FooterImg";
 import FooterCopyRight from "../Components/FooterCopyRight";
 import SearchBar from "../Components/SearchBar";
 import BrowseCategory from "../Components/BrowseCategory";
+import { NavLink } from "react-router-dom";
 
 function Home(props) {
   return (
@@ -65,7 +66,7 @@ function Home(props) {
             </div>
           </div>
           <div>
-            <h6 className="text-end">Browse All</h6>
+           <NavLink className="text-decoration-none"> <h6 className="text-end text-black">Browse All</h6></NavLink>
           </div>
           <div>
             <BrowseCategory />
@@ -107,13 +108,13 @@ function Home(props) {
         </div>
       </section>
 
-      <section>
-        <div className="container">
+      <section className="sectionPadding ">
+        <div className="container-fluid">
           <div className="row d-flex align-items-center ">
-            <div className="col-sm-12 col-lg-6 ">
+            <div className="col-sm-12 col-lg-5 p-0 text-end">
               <img src={MobileImg} alt="img" className="headerImg" />
             </div>
-            <div className="col-sm-12 col-lg-6 ">
+            <div className="col-sm-12 col-lg-7 bg-light" style={{padding:"60px 150px"}} >
               <div className="d-flex">
                 <img src={Line} alt="img" className="line" />
                 <p
