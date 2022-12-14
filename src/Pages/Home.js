@@ -10,8 +10,6 @@ import "./pages.css";
 import SectionTitle from "../Components/SectionTitle";
 import Check from "../Components/Check";
 import CallBackButton from "../Components/CallBackButton";
-import Card from "../Components/Card";
-import BookingProcess from "../Components/BookingProcess";
 import Footer from "../Components/Footer";
 import FooterImg from "../Components/FooterImg";
 import FooterCopyRight from "../Components/FooterCopyRight";

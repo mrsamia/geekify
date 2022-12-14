@@ -8,7 +8,7 @@ import {  NavLink } from 'react-router-dom';
 function AppNav(props) {
   return (
     <div>
-      <Navbar bg="light" variant="light"  fixed="top">
+      <Navbar bg="white" variant="light"  fixed="top">
         <Container >
           <NavLink to={'/'}>
             <Navbar.Brand>
@@ -19,6 +19,7 @@ function AppNav(props) {
             <NavLink className="nav-link" to="/">Home</NavLink>
             <NavLink className="nav-link" to="/Service">Service</NavLink>
             <NavLink className="nav-link" to="/ServiceArea">Service Areas</NavLink>
+            <NavLink className="nav-link" to="/BecomeMember">Become A Member</NavLink>
           </Nav>
         </Container>
       </Navbar>
