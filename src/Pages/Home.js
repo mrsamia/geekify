@@ -112,7 +112,7 @@ function Home(props) {
             <div className="col-sm-12 col-lg-5 p-0 text-end">
               <img src={MobileImg} alt="img" className="headerImg" />
             </div>
-            <div className="col-sm-12 col-lg-7 bg-light" style={{padding:"60px 150px"}} >
+            <div className="col-sm-12 col-lg-7 bg-light downloadApp_Pad" >
               <div className="d-flex">
                 <img src={Line} alt="img" className="line" />
                 <p

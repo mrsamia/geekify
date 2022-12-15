@@ -127,34 +127,9 @@
   text-indent: 53px;
 }
 
-/* .light-gray-background:before{
-  right: -99em;
-  background: #f76a2a;
-  content: "";
-  display: block;
-  position: absolute;
-  width: 99em;
-  top: 0;
-  bottom: 0;
+.downloadApp_Pad {
+  padding: 60px 150px;
 }
-.light-gray-background{
-  background: #f76a2a;
-} */
-.left {
-  background-color: aliceblue;
-}
-
-.left:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-  background-color: aliceblue;
-}
-
 .BackgroundCheck {
   font-weight: 500;
   font-size: 18px;
@@ -321,8 +296,8 @@
   background: #fef1e6;
   /* background-color: white; */
 }
-.ActiveColor{
-  background-color: white!important;
+.ActiveColor {
+  background-color: white !important;
   color: #f76a2a;
 }
 
@@ -354,10 +329,10 @@
   border-collapse: separate;
   border-spacing: 0 1em;
 }
-.Active{
+.Active {
   color: #f76a2a;
 }
-.border-bottom-color{
+.border-bottom-color {
   border-bottom: 2px solid #f76a2a;
 }
 @media (max-width: 992px) {
@@ -375,7 +350,9 @@
   .position {
     position: unset;
   }
-
+  .downloadApp_Pad {
+    padding: 10px;
+  }
   .FooteBg {
     background-size: cover;
     background-position: center;
