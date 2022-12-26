@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import Service from "./Pages/Service";
 import ServiceArea from "./Pages/ServiceArea";
 import BecomeMember from "./Pages/BecomeMember";
+import Blog from "./Pages/Blog";
 
 function App() {
   return (
@@ -16,10 +17,9 @@ function App() {
         <Route path="/Service" element={<Service />} />
         <Route path="/ServiceArea" element={<ServiceArea/>} />
         <Route path="/BecomeMember" element={<BecomeMember/>} />
+        <Route path="/Blog" element={<Blog/>} />
       </Routes>
     </div>
-
-
 
   );
 }

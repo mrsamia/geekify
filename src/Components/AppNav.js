@@ -20,6 +20,7 @@ function AppNav(props) {
             <NavLink className="nav-link" to="/Service">Service</NavLink>
             <NavLink className="nav-link" to="/ServiceArea">Service Areas</NavLink>
             <NavLink className="nav-link" to="/BecomeMember">Become A Member</NavLink>
+            <NavLink className="nav-link" to="/Blog">Blog</NavLink>
           </Nav>
         </Container>
       </Navbar>

@@ -335,6 +335,47 @@
 .border-bottom-color {
   border-bottom: 2px solid #f76a2a;
 }
+.blog-bg {
+  background-image: url(../Images/blog_bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 150px;
+  background-position: bottom;
+  opacity: 0.9;
+}
+.blog-input-form{
+  border: none;
+  border-radius: 20px;
+  color: #f76a2a!important;
+  max-width: 90%!important;
+  padding-left: 20px;
+}
+.Subscribe-Now-btn{
+  color: white;
+  background-color: #f76a2a;
+  border-radius: 20px;
+  margin-left: -20px;
+  font-size: 20px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+.Subscribe-Now-btn:hover{
+  color: white;
+  background-color: #f76a2a;
+}
+.search-icon{
+  background-color: #f76a2a;
+  color: white;
+  border: none;
+  padding: 8px;
+}
+.btn-position{
+  margin-top: -22px;
+  text-align: end;
+  padding-right: 15px;
+}
+
+
 @media (max-width: 992px) {
   .sectionPadding {
     padding-top: 70px;
@@ -373,5 +414,31 @@
   }
   .form-group {
     max-width: 80%;
+  }
+  .blog-wrapper{
+    padding: 150px 20px!important;
+  }
+  .blog-bg {
+    background-image: url(../Images/blog_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    background-position: center;
+  }
+  .blog-input-form{
+    border: none;
+    border-radius: 20px;
+    color: #f76a2a!important;
+    max-width: 50%!important;
+    padding-left: 20px;
+  }
+  .Subscribe-Now-btn{
+    color: white;
+    background-color: #f76a2a;
+    border-radius: 20px;
+    margin-left: -14px;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }

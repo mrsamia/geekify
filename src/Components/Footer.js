@@ -44,7 +44,7 @@ const ServiceItems = [
 function Footer(props) {
 
     return (
-        <div className='row'>
+        <div className='row '>
             <div className='col-md-6 col-sm-12 col-lg-3'>
                 <div>
                     <h2 className='footer-header'>Company</h2>

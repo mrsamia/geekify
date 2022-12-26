@@ -55,7 +55,7 @@ function Service(props) {
             </section>
 
             <section className="sectionPadding bg-light">
-                <div className="container">
+                <div className="container ">
                     <FooterImg />
                     <Footer />
                 </div>
